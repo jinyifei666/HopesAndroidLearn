@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">霍普斯安卓学习</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="font_blue">蓝色</string>
+    <string name="font_green">绿色</string>
+    <string name="font_red">红色</string>
+
+    <string name="hello">控件组合</string>
+    <string name="text">我是显示文本控件和按钮控件</string>
+    <string name="anniu">按钮</string>
+    <string name="frameLayout">1.文本和按钮</string>
+    <string name="imagebutton">2.图片按钮</string>
+    <string name="ckb">3.复选框</string>
+    <string name="radbutton">4.单选框</string>
+    <string name="alc">5.钟表</string>
+    <string name="dc">6.电子表</string>
+    <string name="dp">7.日期选择控件</string>
+    <string name="Iv">8.图片显示</string>
+    <string name="tp">9.时间选择控件</string>
+    <string name="to">10.双状态按钮控件</string>
+    <string name="ed">11.文本编辑</string>
+    <string name="pb">12.进度条控件</string>
+    <string name="sb">13.可拖动的进度条控件</string>
+    <string name="act">14.支持自动完成功能的可编辑文本控件</string>
+    <string name="mact">15.支持自动完成功能的可编辑文本控件,允许输入多值</string>
+    <string name="zc">16.放大/缩小控件</string>
+    <string name="idd">17.整合控件</string>
+    <string name="vv">18.视频播放</string>
+    <string name="wv">19.浏览器控件</string>
+    <string name="rb">20.评分控件</string>
+    <string name="tb">21.选项卡控件</string>
+    <string name="sp">22.下拉框控件</string>
+    <string name="chr">23.计时控件</string>
+    <string name="scr">24.滚动条控件</string>
+    <string name="tsh">25.文字装换控件</string>
+    <string name="gl">26.缩略图浏览器控件</string>
+    <string name="ima">27.图片转换器控件</string>
+    <string name="gv">28.网格控件</string>
+    <string name="edb">29.支持展开/收缩功能的列表控件</string>
+    <string name="sharepreference">SharepreFerence</string>
+
+</resources>

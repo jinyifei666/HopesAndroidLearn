@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ <!--
+        MultiAutoCompleteTextView - 支持自动完成功能的可编辑文本控件，允许输入多值（多值之间会自动地用指定的分隔符分开）
+    -->
+    <MultiAutoCompleteTextView 
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

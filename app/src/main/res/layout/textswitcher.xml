@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button 
+        android:id="@+id/btnChange" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="改变文字" />
+
+    <!--
+        TextSwitcher - 文字转换器控件（改变文字时增加一些动画效果）
+    -->
+    <TextSwitcher 
+        android:id="@+id/textSwitcher"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

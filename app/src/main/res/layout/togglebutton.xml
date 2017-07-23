@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2" 
+        />
+	<!-- 
+        ToggleButton - 双状态按钮控件
+            textOn - 当按钮状态为 true 时所显示的文本
+            textOff - 当按钮状态为 false 时所显示的文本
+    -->
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="关闭"
+        android:textOff="打开"
+        />
+</LinearLayout>

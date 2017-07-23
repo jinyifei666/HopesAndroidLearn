@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textview1" 
+         />
+	<!-- 
+	CheckBox-复选框
+	 -->
+	 <CheckBox
+	     android:text="复选框1"
+	     android:id="@+id/chk1"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     ></CheckBox>
+	  <CheckBox
+	     android:text="复选框2"
+	     android:id="@+id/chk2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     ></CheckBox>
+	   <CheckBox
+	     android:text="复选框3"
+	     android:id="@+id/chk3"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     ></CheckBox>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/textView" />
+        
+    <!--
+        RadioButton - 单选框控件
+        RadioGroup - 对其内的单选框控件做分组
+        checkedButton - 指定组内被选中的单选框的 ID
+    -->
+       <RadioGroup 
+       	    android:id="@+id/radioGroup"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent"
+        	android:checkedButton="@+id/rad3" 
+        	android:orientation="horizontal"
+        	android:gravity="center_vertical|center_horizontal">
+        <RadioButton 
+            android:text="单选1" 
+            android:id="@+id/rad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton 
+            android:text="单选2" 
+            android:id="@+id/rad2"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton 
+            android:text="单选3" 
+            android:id="@+id/rad3"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+    
+</LinearLayout>

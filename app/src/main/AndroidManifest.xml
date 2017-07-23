@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.jinyifei.hopes">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BIND_PRINT_SERVICE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.ActivityActivity">
+            <intent-filter>
+                <action android:name="myActivityCeshi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ContentProviderActivity">
+            <intent-filter>
+                <action android:name="myProvider" />
+
+                <category android:name="aaa" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ReturnDataActivity" />
+        <activity
+            android:name=".ui.DialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".ui.WriteFileActvity" />
+        <activity android:name=".ui.BaseActivity" />
+        <activity android:name=".ui.ListViewActivity" />
+        <activity android:name=".ui.MenuActivity" />
+        <activity android:name=".ui.BaseUi" />
+        <activity
+            android:name=".ui.kongjian.HopesSpinner"
+            android:label="功能测试" />
+        <activity android:name=".ui.kongjian.HopesRadioGroup" />
+        <activity android:name=".ui.kongjian.HopesAnalogClock" />
+        <activity android:name=".ui.kongjian.HopesAutoCompleteTextView" />
+        <activity android:name=".ui.kongjian.HopesCheckBox" />
+        <activity android:name=".ui.kongjian.HopesChronometer" />
+        <activity android:name=".ui.kongjian.HopesDatePicker" />
+        <activity android:name=".ui.kongjian.HopesDigitalClock" />
+        <activity android:name=".ui.kongjian.HopesEditText" />
+        <activity android:name=".ui.kongjian.HopesExpandable" />
+        <activity android:name=".ui.kongjian.HopesGallery" />
+        <activity android:name=".ui.kongjian.HopesGridView" />
+        <activity android:name=".ui.kongjian.HopesImageButton" />
+        <activity android:name=".ui.kongjian.HopesImageSwitcher" />
+        <activity android:name=".ui.kongjian.HopesImageView" />
+        <activity android:name=".ui.kongjian.HopesInclude" />
+        <activity android:name=".ui.kongjian.HopesMultiAutoCompleteTextView" />
+        <activity android:name=".ui.kongjian.HopesProgressBar" />
+        <activity android:name=".ui.kongjian.HopesRatingBar" />
+        <activity android:name=".ui.kongjian.HopesScrollView" />
+        <activity android:name=".ui.kongjian.HopesSeekBar" />
+        <activity android:name=".ui.kongjian.HopesTab" />
+        <activity android:name=".ui.kongjian.HopesTextSwitcher" />
+        <activity android:name=".ui.kongjian.HopesTimePicker" />
+        <activity android:name=".ui.kongjian.HopesToggleButton" />
+        <activity android:name=".ui.kongjian.HopesWebView" />
+        <activity android:name=".ui.kongjian.HopesZoomControls" />
+        <activity android:name=".ui.kongjian.HopesTextViewbutton" />
+        <activity android:name=".ui.kongjian.HopesVideoView" />
+        <activity android:name=".ui.BroadCastActivity" />
+
+        <receiver android:name=".receiver.MyBroadcastReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="com.example.broadcasttest.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.ForceOfflineReceiver">
+            <intent-filter>
+                <action android:name="com.example.broadcastbestpractice.FORCE_OFFLINE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ui.ServiceActivity" />
+
+        <service android:name=".service.MyIntentService" />
+        <service android:name=".service.MyService" />
+
+        <activity android:name=".ui.HandlerActivity" />
+        <activity android:name=".ui.DataActivity" />
+        <activity android:name=".ui.SharePreferencesActivity" />
+        <activity android:name=".ui.SqliteActivity" />
+        <activity android:name=".ui.FileActivity"></activity>
+    </application>
+
+</manifest>

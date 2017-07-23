@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+    GridView - 网格控件
+        numColumns="auto_fit" - 列数自适应
+        stretchMode - 缩放模式（stretchMode="columnWidth" - 缩放与列宽大小同步）
+	-->
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/gridView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="100px"
+	    android:verticalSpacing="100px"
+	    android:horizontalSpacing="30px"
+	    android:numColumns="auto_fit"
+	    android:columnWidth="60px"
+	    android:stretchMode="columnWidth"
+	    android:gravity="center"
+	    ></GridView>
+</LinearLayout>
