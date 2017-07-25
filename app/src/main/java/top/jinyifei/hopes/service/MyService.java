@@ -9,7 +9,7 @@ import android.os.IBinder;
 import android.util.Log;
 
 import top.jinyifei.hopes.R;
-import top.jinyifei.hopes.ui.ServiceActivity;
+import top.jinyifei.hopes.activitys.ServiceActivity;
 
 public class MyService extends Service {
 

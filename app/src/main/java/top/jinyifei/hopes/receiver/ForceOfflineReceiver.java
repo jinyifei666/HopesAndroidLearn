@@ -7,8 +7,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.WindowManager;
 
-import top.jinyifei.hopes.ui.ActivityCollector;
-import top.jinyifei.hopes.ui.LoginActivity;
+import top.jinyifei.hopes.activitys.ActivityCollector;
+import top.jinyifei.hopes.activitys.LoginActivity;
 
 /**
  * Created by jinyifei on 17/7/23.

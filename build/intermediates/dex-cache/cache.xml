@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8c0f8a41a1ab220c76943f972ad6e7ae940bc75d">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0a96cebd240134fc5c92b05d75d4970c17166223\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\ormlite-core-4.48.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-core-4.48_45bc52150876ed387d9697ac187d03fa651dd330\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8bd029aa604079bd05260016b9779c2a2b01304a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\ormlite-android-4.48.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-android-4.48_de1224e92b93171adb4f29e9767bc333a45f3185\classes.dex" />
+    </item>
+
+</items>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="top.jinyifei.hopes.ui.MainActivity">
+    tools:context="top.jinyifei.hopes.activitys.MainActivity">
 
 
         <LinearLayout
@@ -112,6 +112,16 @@
                 android:layout_height="wrap_content"
                 android:text="数据存储"
                 android:id="@+id/button11"/>
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/button12"/>
 
 
         </LinearLayout>

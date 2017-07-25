@@ -4,17 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="top.jinyifei.hopes.ui.ContentProviderActivity">
+    tools:context="top.jinyifei.hopes.activitys.ContentProviderActivity">
 
-    <ScrollView
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/contacts_result"/>-->
+
+
+
+    <!--</ScrollView>-->
+
+    <ListView
+        android:id="@+id/contacts_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/contacts_result"/>
-
-
-
-    </ScrollView>
+        android:layout_height="match_parent"></ListView>
 </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="top.jinyifei.hopes.ui.DataActivity">
+    tools:context="top.jinyifei.hopes.activitys.DataActivity">
 
     <Button
         android:id="@+id/shareprefecence"
@@ -30,5 +30,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="内容提供者" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据缓存框架（ACache）"
+        android:id="@+id/acacheBtn"/>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库框架（ormlite）"
+        android:id="@+id/dbBtn"/>
 
 </LinearLayout>
