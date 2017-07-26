@@ -9,6 +9,13 @@ import android.widget.Button;
 
 import top.jinyifei.hopes.R;
 
+/**
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:12
+ * email：jyf@whu.edu.cn
+ * function：activity生命周期测试
+ */
+
 public class ActivityActivity extends AppCompatActivity {
 
     private Button button,button2;

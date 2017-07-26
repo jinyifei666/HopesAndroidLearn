@@ -22,8 +22,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activitys.LoginActivity">
-        </activity>
+        <activity android:name=".activitys.LoginActivity" />
         <activity android:name=".activitys.MainActivity" />
         <activity android:name=".activitys.ActivityActivity">
             <intent-filter>
@@ -82,7 +81,6 @@
         <activity android:name=".activitys.kongjian.HopesVideoView" />
         <activity android:name=".activitys.BroadCastActivity" />
 
-
         <receiver android:name=".receiver.MyBroadcastReceiver">
             <intent-filter android:priority="100">
                 <action android:name="com.example.broadcasttest.MY_BROADCAST" />
@@ -128,6 +126,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activitys.viewPagerFragment.ViewPagerFragmentActivity" />
+        <activity android:name=".activitys.cache.Main2Activity" />
+        <activity android:name=".activitys.NetWorkActivity"></activity>
     </application>
 
 </manifest>

@@ -5,7 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 /**
- * Created by jinyifei on 17/7/20.
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:23
+ * email：jyf@whu.edu.cn
+ * function：基本activity,方便activity管理
  */
 public class BaseActivity extends AppCompatActivity {
 

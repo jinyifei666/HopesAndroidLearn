@@ -12,7 +12,8 @@ import com.j256.ormlite.table.TableUtils;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
-;import top.jinyifei.hopes.models.ClassModel;
+import top.jinyifei.hopes.models.ClassModel;
+import top.jinyifei.hopes.models.People;
 import top.jinyifei.hopes.models.Student;
 
 
@@ -33,6 +34,7 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
         try{
             TableUtils.createTable(connectionSource , Student.class);
             TableUtils.createTable(connectionSource , ClassModel.class);
+            TableUtils.createTable(connectionSource,  People.class);
         }catch (SQLException e){
             e.printStackTrace();
         }

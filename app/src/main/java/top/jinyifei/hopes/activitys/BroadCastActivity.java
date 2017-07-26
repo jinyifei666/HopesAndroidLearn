@@ -15,6 +15,13 @@ import android.widget.Toast;
 
 import top.jinyifei.hopes.R;
 
+/**
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:23
+ * email：jyf@whu.edu.cn
+ * function：四大组件之一BroadCast Receiver测试
+ */
+
 public class BroadCastActivity extends AppCompatActivity {
     private IntentFilter intentFilter;
 

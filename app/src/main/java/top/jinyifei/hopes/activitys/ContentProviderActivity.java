@@ -28,6 +28,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:24
+ * email：jyf@whu.edu.cn
+ * function：四大组件之一内容提供者测试
+ */
+
 public class ContentProviderActivity extends AppCompatActivity {
 
     private EditText et_result;

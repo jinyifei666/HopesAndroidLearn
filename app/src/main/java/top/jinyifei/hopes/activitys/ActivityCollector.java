@@ -6,7 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by mookrs on 17/7/20.
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:22
+ * email：jyf@whu.edu.cn
+ * function：Activity管理容器
  */
 public class ActivityCollector {
     public static List<Activity> activities = new ArrayList<Activity>();

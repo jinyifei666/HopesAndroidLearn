@@ -9,6 +9,13 @@ import android.widget.Button;
 import top.jinyifei.hopes.R;
 import top.jinyifei.hopes.activitys.db.MainDbActivity;
 
+/**
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:25
+ * email：jyf@whu.edu.cn
+ * function：数据存储测试
+ */
+
 public class DataActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button sqlBtn,fileBtn,contenProBtn,shareBtn,acacheBtn,dbBtn;

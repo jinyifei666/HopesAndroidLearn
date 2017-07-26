@@ -42,11 +42,13 @@ public class WelcomeActivity extends Activity {
 
     private Runnable mRunnable = new Runnable() {
         public void run() {
+
             try {
                 Thread.sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             mHandler.sendEmptyMessage(1);
         }
     };

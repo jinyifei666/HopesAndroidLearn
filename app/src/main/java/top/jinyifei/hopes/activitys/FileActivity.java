@@ -1,5 +1,6 @@
 package top.jinyifei.hopes.activitys;
 
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Context;
@@ -8,10 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 
 import top.jinyifei.hopes.R;
 import top.jinyifei.hopes.utils.SDFileHelper;
+
+
 
 public class FileActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -40,6 +45,24 @@ public class FileActivity extends AppCompatActivity implements View.OnClickListe
         btnsave.setOnClickListener(this);
         btnclean.setOnClickListener(this);
         btnread.setOnClickListener(this);
+    }
+
+    private void writeFile() {
+        if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)){
+            return;
+        }
+        try {
+            File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getAbsolutePath());
+            File file = new File(dir,"test.txt");
+            FileWriter writer = new FileWriter(file);
+            writer.write("文件内容...");
+            writer.flush();
+            writer.close();
+            Toast.makeText(this, "写文件成功:"+file.getAbsolutePath(), Toast.LENGTH_SHORT).show();
+        }catch (Exception e){
+            e.printStackTrace();
+            Toast.makeText(this, "写文件失败", Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override

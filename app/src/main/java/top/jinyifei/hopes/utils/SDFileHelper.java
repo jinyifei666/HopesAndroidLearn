@@ -8,6 +8,13 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * author: jinyifei
+ * time:  Created on 2017/7/25 16:39
+ * email：jyf@whu.edu.cn
+ * function：文件操作
+ */
+
 
 public class SDFileHelper {
 

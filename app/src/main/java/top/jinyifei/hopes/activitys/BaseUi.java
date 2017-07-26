@@ -37,38 +37,15 @@ import top.jinyifei.hopes.activitys.kongjian.HopesVideoView;
 import top.jinyifei.hopes.activitys.kongjian.HopesWebView;
 import top.jinyifei.hopes.activitys.kongjian.HopesZoomControls;
 
+/**
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:23
+ * email：jyf@whu.edu.cn
+ * function：各种控件集合
+ */
+
 public class BaseUi extends AppCompatActivity {
     /** Called when the activity is first created. */
-
-    private Button TextViewbutton;
-    private Button _ImageButton;
-    private Button _CheckBox;
-    private Button _RadioGroup;
-    private Button _AnalogClock;
-    private Button _DigitalClock;
-    private Button _ImageView;
-    private Button _DatePicker;
-    private Button _TimePicker;
-    private Button _ToggleButton;
-    private Button _EditText;
-    private Button _ProgressBar;
-    private Button _SeekBar;
-    private Button _AutoCompleteTextView;
-    private Button _MultiAutoCompleteTextView;
-    private Button _ZoomControls;
-    private Button _Include;
-    private Button _VideoView;
-    private Button _WebView;
-    private Button _RatingBar;
-    private Button _Tab;
-    private Button _Spinner;
-    private Button _Chronometer;
-    private Button _ScrollView;
-    private Button _TextSwitcher;
-    private Button _Gallery;
-    private Button _ImageSwitcher;
-    private Button _GridView;
-    private Button _Expandable;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,6 +81,7 @@ public class BaseUi extends AppCompatActivity {
         Button is=(Button)findViewById(R.id.is);
         Button gd=(Button)findViewById(R.id.gd);
         Button edb=(Button)findViewById(R.id.edb);
+        Button listViewBtn=(Button)findViewById(R.id.listViewBtn);
 
         //1文本显示和按钮
         frameLayout.setOnClickListener(new View.OnClickListener() {
@@ -384,6 +362,12 @@ public class BaseUi extends AppCompatActivity {
                 Intent intent=new Intent();
                 intent.setClass(BaseUi.this,HopesExpandable.class);
                 startActivity(intent);
+            }
+        });
+        listViewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(BaseUi.this,ListViewActivity.class));
             }
         });
     }

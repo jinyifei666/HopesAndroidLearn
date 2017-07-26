@@ -99,4 +99,5 @@ public class SharePreferencesActivity extends Activity implements
         map.put("pswd", setting.getString("pswd", ""));
         return map;
     }
+
 }

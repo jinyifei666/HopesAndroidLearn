@@ -188,5 +188,12 @@
             android:layout_height="wrap_content"
             android:text="@string/edb"
             />
+
+        <Button
+            android:id="@+id/listViewBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="listView"
+            />
     </LinearLayout>
 </ScrollView>

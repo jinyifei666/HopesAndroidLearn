@@ -15,8 +15,10 @@ import top.jinyifei.hopes.activitys.cache.SaveObjectActivity;
 import top.jinyifei.hopes.activitys.cache.SaveStringActivity;
 
 /**
- * Created by jinyifei on 17/7/23.
- * 缓存测试界面
+ * author: jinyifei
+ * time:  Created on 2017/7/25 13:12
+ * email：jyf@whu.edu.cn
+ * function：缓存测试界面
  */
 
 public class ACacheActivity extends AppCompatActivity {

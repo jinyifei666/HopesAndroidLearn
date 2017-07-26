@@ -41,4 +41,9 @@
     <string name="edb">29.支持展开/收缩功能的列表控件</string>
     <string name="sharepreference">SharepreFerence</string>
 
+    <string name="tab_menu_alert">学习</string>
+    <string name="tab_menu_profile">作业</string>
+    <string name="tab_menu_pay">资源</string>
+    <string name="tab_menu_setting">关于</string>
+
 </resources>
