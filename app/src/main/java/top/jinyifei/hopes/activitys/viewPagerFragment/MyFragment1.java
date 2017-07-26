@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -16,14 +17,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import top.jinyifei.hopes.R;
+import top.jinyifei.hopes.activitys.AnimationActivity;
 import top.jinyifei.hopes.activitys.BaseUi;
 import top.jinyifei.hopes.activitys.BroadCastActivity;
 import top.jinyifei.hopes.activitys.DataActivity;
+import top.jinyifei.hopes.activitys.DynamicFragmentActivity;
 import top.jinyifei.hopes.activitys.HandlerActivity;
 import top.jinyifei.hopes.activitys.MainActivity;
 import top.jinyifei.hopes.activitys.MenuActivity;
 import top.jinyifei.hopes.activitys.NetWorkActivity;
 import top.jinyifei.hopes.activitys.ServiceActivity;
+import top.jinyifei.hopes.activitys.StaticFragmentActivity;
+import top.jinyifei.hopes.activitys.ViewPagerActivity;
+import top.jinyifei.hopes.activitys.task.TaskOneActivity;
 import top.jinyifei.hopes.adapter.KnowledgeAdapter;
 
 
@@ -69,6 +75,11 @@ public class MyFragment1 extends Fragment {
         knowledgeList.add("服务");
         knowledgeList.add("Handler");
         knowledgeList.add("网络请求");
+        knowledgeList.add("动画");
+        knowledgeList.add("ViewPager");
+        knowledgeList.add("静态fragment");
+        knowledgeList.add("动态fragment");
+        knowledgeList.add("图片加载");
         adapter=new KnowledgeAdapter(getActivity(),knowledgeList);
         listView.setAdapter(adapter);
         setListener();
@@ -114,6 +125,21 @@ public class MyFragment1 extends Fragment {
                         break;
                     case 9:
                         startActivity(new Intent(getActivity(),NetWorkActivity.class));
+                        break;
+                    case 10:
+                        startActivity(new Intent(getActivity(),AnimationActivity.class));
+                        break;
+                    case 11:
+                        startActivity(new Intent(getActivity(),ViewPagerActivity.class));
+                        break;
+                    case 12:
+                        startActivity(new Intent(getActivity(),StaticFragmentActivity.class));
+                        break;
+                    case 13:
+                        startActivity(new Intent(getActivity(),DynamicFragmentActivity.class));
+                        break;
+                    case 14:
+                        startActivity(new Intent(getActivity(),TaskOneActivity.class));
                         break;
                 }
             }

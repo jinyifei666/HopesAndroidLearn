@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_6e034b8ed8865fa684496e316b467bf3b2935027\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="80764e631ba81d6ce73164717e11646962e68fe3">
+        sha1="36c00c336110dd5fdd6f77549f089ab732f75d69">
         <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0a96cebd240134fc5c92b05d75d4970c17166223\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\acera\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_56df2265f871d56b1eae19aceb31f9909cb735aa\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,21 +39,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\android-async-http-1.4.9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.9_617ee23904fa01328ff25f9bc43ce8d650833562\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8bd029aa604079bd05260016b9779c2a2b01304a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.9_617ee23904fa01328ff25f9bc43ce8d650833562\classes.dex" />
     </item>
 
 </items>

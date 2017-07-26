@@ -1,0 +1,7 @@
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:duration="1000"
+    android:repeatCount="2"
+    android:repeatMode="reverse"/>  

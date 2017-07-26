@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import top.jinyifei.hopes.R;
 
+
 public class SqliteActivity extends Activity implements OnClickListener {
 
     private EditText mEditText1, mEditText2;
