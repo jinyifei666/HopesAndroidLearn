@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="36c00c336110dd5fdd6f77549f089ab732f75d69">
+        sha1="15025cfc9cefdf68a91085cf1f8eb44a220a9831">
         <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0a96cebd240134fc5c92b05d75d4970c17166223\classes.dex" />
     </item>
     <item
@@ -30,6 +30,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\acera\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.7.0\2637055420a2da406e3ea9920c2ff4aafd38c970\butterknife-annotations-8.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2637055420a2da406e3ea9920c2ff4aafd38c970">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.7.0_da8eaee5dbca6d8316862cc29d88e84b97efe133\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.3.0_310645c8d5b8647161486fd9c65a8ec69d7e92cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\.android\build-cache\08c04d8fb32aed37bec6f32e854ca0b82fff9b73\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b7d39c161cecdb6c2b52a1cdc71faf0ffd4626e">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4da5a5ae3a37618998bbf17f14e02eea00bb970\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\ormlite-core-4.48.jar"
         jumboMode="true"
         optimize="true"
@@ -39,21 +66,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8bd029aa604079bd05260016b9779c2a2b01304a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\android-async-http-1.4.9.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
         <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.9_617ee23904fa01328ff25f9bc43ce8d650833562\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8bd029aa604079bd05260016b9779c2a2b01304a\classes.dex" />
     </item>
 
 </items>

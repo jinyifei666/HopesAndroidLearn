@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,12 +23,17 @@ import top.jinyifei.hopes.activitys.BaseUi;
 import top.jinyifei.hopes.activitys.BroadCastActivity;
 import top.jinyifei.hopes.activitys.DataActivity;
 import top.jinyifei.hopes.activitys.DynamicFragmentActivity;
+import top.jinyifei.hopes.activitys.EventBusActivity;
 import top.jinyifei.hopes.activitys.HandlerActivity;
 import top.jinyifei.hopes.activitys.MainActivity;
+import top.jinyifei.hopes.activitys.MainMenuActivity;
 import top.jinyifei.hopes.activitys.MenuActivity;
 import top.jinyifei.hopes.activitys.NetWorkActivity;
+import top.jinyifei.hopes.activitys.PhotoViewActivity;
+import top.jinyifei.hopes.activitys.QRActivity;
 import top.jinyifei.hopes.activitys.ServiceActivity;
 import top.jinyifei.hopes.activitys.StaticFragmentActivity;
+import top.jinyifei.hopes.activitys.UrlJumpActivity;
 import top.jinyifei.hopes.activitys.ViewPagerActivity;
 import top.jinyifei.hopes.activitys.task.TaskOneActivity;
 import top.jinyifei.hopes.adapter.KnowledgeAdapter;
@@ -80,6 +86,10 @@ public class MyFragment1 extends Fragment {
         knowledgeList.add("静态fragment");
         knowledgeList.add("动态fragment");
         knowledgeList.add("图片加载");
+        knowledgeList.add("二维码");
+        knowledgeList.add("图表");
+        knowledgeList.add("EventBus");
+        knowledgeList.add("PhotoView");
         adapter=new KnowledgeAdapter(getActivity(),knowledgeList);
         listView.setAdapter(adapter);
         setListener();
@@ -112,7 +122,7 @@ public class MyFragment1 extends Fragment {
                         break;
                     case 5:
                         Intent intentOffLine=new Intent("top.jinyifei.forceOffLine");
-                        context.sendBroadcast(intentOffLine);
+                        getActivity().sendBroadcast(intentOffLine);
                         break;
                     case 6:
                         startActivity(new Intent(getActivity(),DataActivity.class));
@@ -140,6 +150,18 @@ public class MyFragment1 extends Fragment {
                         break;
                     case 14:
                         startActivity(new Intent(getActivity(),TaskOneActivity.class));
+                        break;
+                    case 15:
+                        startActivity(new Intent(getActivity(),QRActivity.class));
+                        break;
+                    case 16:
+                        startActivity(new Intent(getActivity(),MainMenuActivity.class));
+                        break;
+                    case 17:
+                        startActivity(new Intent(getActivity(),EventBusActivity.class));
+                        break;
+                    case 18:
+                        startActivity(new Intent(getActivity(),PhotoViewActivity.class));
                         break;
                 }
             }
