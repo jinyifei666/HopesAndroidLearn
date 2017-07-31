@@ -24,6 +24,8 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    compile 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     compile files('libs/ormlite-android-4.48.jar')
     compile files('libs/ormlite-core-4.48.jar')
     compile files('libs/android-async-http-1.4.9.jar')

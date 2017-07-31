@@ -22,10 +22,11 @@ import java.util.List;
 import cz.msebera.android.httpclient.Header;
 import top.jinyifei.hopes.R;
 import top.jinyifei.hopes.adapter.ImageAdapter;
+import top.jinyifei.hopes.view.view.XListView;
 
 public class TaskOneActivity extends AppCompatActivity {
    // private ImageLoader imageLoader=ImageLoader.getInstance();
-    private ListView listView;
+    private XListView listView;
     private ArrayList<String> imageList;
     private ImageAdapter adapter;
 
@@ -33,10 +34,23 @@ public class TaskOneActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task_one);
-        listView=(ListView)findViewById(R.id.list_view);
+        listView=(XListView)findViewById(R.id.list_view);
+        listView.setPullLoadEnable(true);
+        listView.setPullRefreshEnable(true);
+        listView.setXListViewListener(new XListView.IXListViewListener() {
+            @Override
+            public void onRefresh() {
+
+            }
+
+            @Override
+            public void onLoadMore() {
+
+            }
+        });
         AsyncHttpClient client=new AsyncHttpClient();
         RequestParams params=new RequestParams();
-        params.put("keyword","美女");
+        params.put("keyword","南京");
         params.put("num","20");
         client.get("http://hopes.yrish.com/api",params,new JsonHttpResponseHandler(){
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {

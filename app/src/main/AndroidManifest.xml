@@ -44,7 +44,8 @@
                 <category android:name="aaa" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>++
+        </activity>
+        ++
         <activity
             android:name="com.google.zxing.activity.CaptureActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
@@ -176,7 +177,10 @@
         <activity android:name=".activitys.charts.GoodBadChartActivity" />
         <activity android:name=".activitys.EventBusActivity" />
         <activity android:name=".activitys.PhotoViewActivity" />
-        <activity android:name=".activitys.QRActivity"></activity>
+        <activity android:name=".activitys.QRActivity" />
+        <activity android:name=".activitys.MyViewActivity" />
+        <activity android:name=".activitys.MyChartsActivity" />
+        <activity android:name=".activitys.MqttActivity"></activity>
     </application>
 
 </manifest>

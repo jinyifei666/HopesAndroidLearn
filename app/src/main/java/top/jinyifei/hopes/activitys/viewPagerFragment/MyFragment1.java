@@ -28,6 +28,9 @@ import top.jinyifei.hopes.activitys.HandlerActivity;
 import top.jinyifei.hopes.activitys.MainActivity;
 import top.jinyifei.hopes.activitys.MainMenuActivity;
 import top.jinyifei.hopes.activitys.MenuActivity;
+import top.jinyifei.hopes.activitys.MqttActivity;
+import top.jinyifei.hopes.activitys.MyChartsActivity;
+import top.jinyifei.hopes.activitys.MyViewActivity;
 import top.jinyifei.hopes.activitys.NetWorkActivity;
 import top.jinyifei.hopes.activitys.PhotoViewActivity;
 import top.jinyifei.hopes.activitys.QRActivity;
@@ -90,6 +93,7 @@ public class MyFragment1 extends Fragment {
         knowledgeList.add("图表");
         knowledgeList.add("EventBus");
         knowledgeList.add("PhotoView");
+        knowledgeList.add("自定义控件");
         adapter=new KnowledgeAdapter(getActivity(),knowledgeList);
         listView.setAdapter(adapter);
         setListener();
@@ -163,6 +167,10 @@ public class MyFragment1 extends Fragment {
                     case 18:
                         startActivity(new Intent(getActivity(),PhotoViewActivity.class));
                         break;
+                    case 19:
+                        startActivity(new Intent(getActivity(),MyChartsActivity.class));
+                        break;
+
                 }
             }
         });
