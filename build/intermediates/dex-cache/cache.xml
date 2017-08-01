@@ -2,58 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_6e034b8ed8865fa684496e316b467bf3b2935027\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="68d738195acf05d33059326d88a820b33b624628">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0a96cebd240134fc5c92b05d75d4970c17166223\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\ormlite-core-4.48.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-core-4.48_45bc52150876ed387d9697ac187d03fa651dd330\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\android-async-http-1.4.9.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.9_617ee23904fa01328ff25f9bc43ce8d650833562\classes.dex" />
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_617ee23904fa01328ff25f9bc43ce8d650833562.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\ormlite-core-4.48.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8bd029aa604079bd05260016b9779c2a2b01304a\classes.dex" />
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\ormlite-core-4.48_45bc52150876ed387d9697ac187d03fa651dd330.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e53b14e9054757ca7a1cb3527ed7752e5d4d2444">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_4ffb6ab5a68f171b75048b6340b4434e99d61b3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\httpmime-4.1.2_220c178a26cdae0fc90d2774eb52ffd150a7b8c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\ormlite-android-4.48.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="afa06f539a4026c10b247386312aa67404b80a16">
-        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-android-4.48_de1224e92b93171adb4f29e9767bc333a45f3185\classes.dex" />
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\ormlite-android-4.48_de1224e92b93171adb4f29e9767bc333a45f3185.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_6e034b8ed8865fa684496e316b467bf3b2935027.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acera\Desktop\HopesAndroidLearn\app\libs\IndoorscapeAlbumPlugin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6c8bf896e0d23f4003b9a3cab4bff9af9adefda">
+        <dex dex="C:\Users\acera\Desktop\HopesAndroidLearn\app\build\intermediates\pre-dexed\debug\IndoorscapeAlbumPlugin_49417af313e0790b80235285c3af2f8d64a727fa.jar" />
     </item>
 
 </items>

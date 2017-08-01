@@ -25,6 +25,7 @@ import top.jinyifei.hopes.activitys.DataActivity;
 import top.jinyifei.hopes.activitys.DynamicFragmentActivity;
 import top.jinyifei.hopes.activitys.EventBusActivity;
 import top.jinyifei.hopes.activitys.HandlerActivity;
+import top.jinyifei.hopes.activitys.LocationActivity;
 import top.jinyifei.hopes.activitys.MainActivity;
 import top.jinyifei.hopes.activitys.MainMenuActivity;
 import top.jinyifei.hopes.activitys.MenuActivity;
@@ -94,6 +95,7 @@ public class MyFragment1 extends Fragment {
         knowledgeList.add("EventBus");
         knowledgeList.add("PhotoView");
         knowledgeList.add("自定义控件");
+        knowledgeList.add("定位");
         adapter=new KnowledgeAdapter(getActivity(),knowledgeList);
         listView.setAdapter(adapter);
         setListener();
@@ -169,6 +171,9 @@ public class MyFragment1 extends Fragment {
                         break;
                     case 19:
                         startActivity(new Intent(getActivity(),MyChartsActivity.class));
+                        break;
+                    case 20:
+                        startActivity(new Intent(getActivity(),LocationActivity.class));
                         break;
 
                 }

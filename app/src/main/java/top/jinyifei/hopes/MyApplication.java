@@ -1,9 +1,15 @@
 package top.jinyifei.hopes;
 
 import android.app.Application;
+import android.app.Service;
+import android.os.Vibrator;
 
+
+import com.baidu.mapapi.SDKInitializer;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+
+import top.jinyifei.hopes.service.LocationService;
 
 /**
  * author: jinyifei
@@ -13,6 +19,8 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
  */
 
 public class MyApplication extends Application {
+    public LocationService locationService;
+    public Vibrator mVibrator;
 
     @Override
     public void onCreate() {
@@ -24,5 +32,12 @@ public class MyApplication extends Application {
 
         //Initialize ImageLoader with configuration.
         ImageLoader.getInstance().init(configuration);
+
+        /***
+         * 初始化定位sdk，建议在Application中创建
+         */
+        locationService = new LocationService(getApplicationContext());
+        mVibrator =(Vibrator)getApplicationContext().getSystemService(Service.VIBRATOR_SERVICE);
+
     }
 }
