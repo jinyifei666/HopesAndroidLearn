@@ -28,7 +28,7 @@ public class NetWorkActivity extends AppCompatActivity {
         RequestParams params=new RequestParams();
         params.put("keyword","风景");
         params.put("num",20);
-        client.get("http://hopes.yrish.com/api",params,new JsonHttpResponseHandler(){
+        client.get("http://hopes.yrish.com/imgsearch",params,new JsonHttpResponseHandler(){
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 for (Header header:headers){
                     Log.w("JsonHttpRH", header.toString());

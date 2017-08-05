@@ -37,6 +37,7 @@ public class AnimationActivity extends AppCompatActivity implements View.OnClick
         img_show = (ImageView) findViewById(R.id.img_show);
 
         btn_alpha.setOnClickListener(this);
+
         btn_scale.setOnClickListener(this);
         btn_tran.setOnClickListener(this);
         btn_rotate.setOnClickListener(this);
